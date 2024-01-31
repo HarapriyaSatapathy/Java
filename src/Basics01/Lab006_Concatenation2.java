@@ -1,4 +1,4 @@
-package src;
+package src.Basics01;
 
 public class Lab006_Concatenation2 {
     public static void main(String[] args) {

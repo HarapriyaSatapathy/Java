@@ -1,4 +1,4 @@
-package src;
+package src.Basics01;
 
 public class Lab002_Subtraction {
     public static void main(String[] args) {
