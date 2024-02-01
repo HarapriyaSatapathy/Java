@@ -1,8 +1,6 @@
 package src.Basics02;
 
-import java.util.Scanner;
-
-public class Lab001_Swapping2Number {
+public class Lab001_Swapping2NumberWithTemp {
     public static void main(String[] args) {
         int a = 2;
         int b = 4;

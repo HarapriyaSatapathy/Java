@@ -1,4 +1,4 @@
-package src.oops;
+package src.Function;
 
 public class Lab002_FunctionCreation2 {
     public static void main(String[] args) {

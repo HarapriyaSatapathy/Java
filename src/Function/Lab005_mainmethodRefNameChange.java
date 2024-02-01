@@ -1,4 +1,4 @@
-package src.oops;
+package src.Function;
 
 public class Lab005_mainmethodRefNameChange {
     //public static void main(String[] args)-The args her is just
