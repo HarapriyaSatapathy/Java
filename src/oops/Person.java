@@ -1,13 +1,29 @@
 package src.oops;
 
-public class PersonClass {
-    String name;
+public class Person {
+
+
+    String ref_name;
     String color;
-    int age;
+    int ref_age;
     double height;
     //above all parameters are nothing but the atrributes of a class
     //And below are teh behaviour/methods of  a class
 
+    Person(){
+        ref_name="Priya";
+        ref_age=40;
+        System.out.println("I am the Default Constructor");
+    }
+
+    Person(String name,int age){
+        this.ref_name=name;
+        this.ref_age=age;
+
+    }
+
+//Default constructor will always pass teh default values of parameters when
+//its called by another class object
     void walk() {
         System.out.println("Walk!!");
     }
@@ -15,9 +31,9 @@ public class PersonClass {
     void eat() {
         System.out.println("eat");
     }
-
-    String PrintDetails(String s) {
-        return s;
-    }
+   void PrintDetails(){
+       System.out.println("The person name is -->"+this.ref_name);
+       System.out.println("The person name is -->"+this.ref_age);
+   }
 
 }
