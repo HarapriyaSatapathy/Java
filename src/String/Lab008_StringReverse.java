@@ -1,4 +1,4 @@
-package src.Basics02;
+package src.String;
 
 public class Lab008_StringReverse {
     public static void main(String[] args) {

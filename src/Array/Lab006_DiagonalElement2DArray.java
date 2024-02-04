@@ -1,4 +1,4 @@
-package src.Basics02;
+package src.Array;
 
 public class Lab006_DiagonalElement2DArray {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.Basics02;
+package src.String;
 
 
 public class Lab009_StringReverse2 {
