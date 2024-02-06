@@ -6,8 +6,7 @@ public class Father extends Grandfather {
     String FCars;
 
 
-    Father(){
-        System.out.println("FDC");
+    Father(){System.out.println("FDC");
     }
     Father(String FProp, String FCar){
         this.FProperty=FProp;

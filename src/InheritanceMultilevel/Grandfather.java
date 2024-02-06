@@ -6,8 +6,7 @@ public class Grandfather {
 
     String GProperty;
     String GCars;
-
-   Grandfather(){
+    Grandfather(){
        System.out.println("GDC");
    }
 

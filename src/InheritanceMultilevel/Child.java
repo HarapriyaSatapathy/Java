@@ -7,8 +7,8 @@ public class Child extends Father {
         String CCars;
 
         Child(){
-            System.out.println("CDC");
-        }
+           System.out.println("CDC");
+       }
 
         Child(String CProp,String CCar ) {
             this.CProperty = CProp;
