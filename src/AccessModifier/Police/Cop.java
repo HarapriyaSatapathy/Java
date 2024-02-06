@@ -1,14 +1,14 @@
-package src.AccessModifier;
+package src.AccessModifier.Police;
 
 public class Cop {
 
-    int gun;
+    public int gun;
 
-    Cop(int gun){
+    public Cop(int gun){
         this.gun=gun;
     }
 
-    void canIShoot(){
+    protected void canIShoot(){
         System.out.println("Yes I can");
 
     }
