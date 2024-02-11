@@ -1,2 +1,6 @@
-package src.Interface;public interface Enginee {
+package src.Interface;
+
+public interface Engine {
+
+    void StartEngine();
 }
