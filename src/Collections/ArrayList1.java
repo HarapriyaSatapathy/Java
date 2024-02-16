@@ -17,7 +17,9 @@ public class ArrayList1 {
         System.out.println(student);
         System.out.println(student.isEmpty());
         System.out.println(student.size());
-
+    for(int i=0;i<student.size();i++){
+        System.out.println(student.get(i));
+    }
 
     }
 }
