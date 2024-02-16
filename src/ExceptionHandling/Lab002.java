@@ -18,6 +18,6 @@ public class Lab002 {
 //Currently this code will only work of we pass commmand line args
 //if we wont pass argument then its arrayoutof index exception
 //if we pass any string args, then its NumberformatException
-//so lets handle all exceptions that jvm already knows(checked exceptions)
+//so lets handle all exceptions that jvm does not know(unchecked exceptions)
 //its always good if you know the type of exception then put it in the catch block
 //instaed of putting Exception
