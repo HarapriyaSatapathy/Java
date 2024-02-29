@@ -6,6 +6,7 @@ import java.util.List;
 public class ArrayList1 {
 
     public static void main(String[] args) {
+
         List student=new ArrayList();
         student.add("Rinky");
         student.add("10th");
