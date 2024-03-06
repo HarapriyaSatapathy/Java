@@ -17,6 +17,7 @@ public class Lab004 {
         }
         for (int i=0;i<s;i++){
             System.out.println("The marks are---->"+arr[i]);
+
         }
         sc.close();
 
