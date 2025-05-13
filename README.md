@@ -1,2 +1,1 @@
-﻿HARAPRIYA SATAPATHY
-Senior QA Engineer
+
