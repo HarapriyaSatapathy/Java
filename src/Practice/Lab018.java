@@ -9,7 +9,7 @@ public class Lab018 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a Word");
         String w = sc.next();
-        char[] char_word = w.toCharArray();// {m,o,m}
+        //char[] char_word = w.toCharArray();// {m,o,m}
 
         String y = "";
 
@@ -18,10 +18,10 @@ public class Lab018 {
 
         }
 //        System.out.println(y);
-            String rev = new String(char_word);
+           // String rev = new String(char_word);
 
 //        System.out.println(rev);
-            if (rev.equalsIgnoreCase(y)) {
+            if (w.equalsIgnoreCase(y)) {
                 System.out.println("Its a pallindrome");
             } else {
                 System.out.println("Not a pallindrome");
